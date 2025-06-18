@@ -8,8 +8,8 @@ const InterviewPage = () => {
                 <div className="w-full aspect-video text-center rounded-sm bg-gray-300">Panel Video/Audio</div>
                 <div className="w-full flex justify-between items-center">
                     <div className="w-1/6 aspect-video text-center rounded-sm bg-gray-300">User Video</div>
-                    <div className="w-1/6 flex flex-col">
-                        <div className="w-full flex justify-between items-center">
+                    <div className="w-1/6 h-full flex flex-col justify-end">
+                        <div className="w-full flex justify-between items-center mb-2.5">
                             <button>
                                 <img src={micOnIcon} alt="Mic Icon"  loading="lazy" decoding="async"/>
                             </button>

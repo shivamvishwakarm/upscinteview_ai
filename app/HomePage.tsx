@@ -1,6 +1,5 @@
 "use client";
-import React from "react";
-import { login } from "@/app/lib/action/auth";
+import { login } from "./lib/action/auth";
 export default function Landing() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-between bg-gradient-to-b from-white to-purple-300 px-6 py-10">

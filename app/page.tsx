@@ -1,4 +1,10 @@
-import Hero   from "./HomePage";
+//import Hero from "./components/HomePage";
+import InterviewPage from "./components/InterviewPage";
+
 export default function Home() {
-  return <div><Hero/></div>;
-}
+  return (
+    <div>
+      <InterviewPage />
+    </div>
+  );
+};

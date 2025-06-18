@@ -1,3 +1,4 @@
+import Hero   from "./HomePage";
 export default function Home() {
-  return <div>UPSC Interveiw AI</div>;
+  return <div><Hero/></div>;
 }

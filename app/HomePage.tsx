@@ -1,9 +1,11 @@
-
 import React from 'react';
 
 export default function Landing() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-between bg-gradient-to-b from-white to-purple-300 px-6 py-10">
+    <main
+      className="min-h-screen flex flex-col items-center justify-between px-6 py-10"
+      style={{ background: 'linear-gradient(135deg, #ff6a00, #ee0979)' }}
+    >
       {/* Header */}
       <header className="w-full flex justify-between items-center text-sm font-semibold text-gray-800">
         <span className="text-xl">

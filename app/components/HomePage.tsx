@@ -1,20 +1,13 @@
 "use client";
 import React from "react";
-import { login } from "@/app/lib/action/auth";
+import Navbar from "./Navbar";
+// import { login } from "@/app/lib/action/auth";
+
 export default function Landing() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-between bg-gradient-to-b from-white to-purple-300 px-6 py-10">
-      {/* Header */}
-      <header className="w-full flex justify-between items-center text-sm font-semibold text-gray-800">
-        <span className="text-xl">
-          <span className="text-purple-600">IAS</span> Interview{" "}
-          <span className="text-black">AI</span>
-        </span>
+      <Navbar />
 
-        <button onClick={() => login()}>Sign up</button>
-      </header>
-
-      {/* Content */}
       <section className="flex flex-col items-center justify-center text-center flex-grow">
         <h1 className="text-xl sm:text-2xl md:text-3xl font-medium text-black mb-4">
           Prepare for <span className="px-1">your next competitive</span>

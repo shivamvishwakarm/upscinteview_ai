@@ -1,4 +1,6 @@
+"use client";
 import React from "react";
+import { login } from "@/app/lib/action/auth";
 
 const Navbar = () => {
   return (
@@ -7,6 +9,8 @@ const Navbar = () => {
         <span className="text-purple-600">IAS</span> Interview
         <span className="text-black">AI</span>
       </span>
+
+      <button onClick={login}>Log in</button>
     </nav>
   );
 };

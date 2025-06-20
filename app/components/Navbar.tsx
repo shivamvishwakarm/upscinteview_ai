@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { login } from "@/app/lib/action/auth";
+import { AuthenticationDialog } from "@/app/components/ui/dialogs/AuthenticationDialog";
 
 const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ const Navbar = () => {
         <span className="text-black">AI</span>
       </span>
 
-      <button onClick={login}>Log in</button>
+      <AuthenticationDialog providers={["google"]} />
     </nav>
   );
 };

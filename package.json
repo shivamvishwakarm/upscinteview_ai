@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.14",
     "next": "15.3.3",
     "next-auth": "^5.0.0-beta.28",
+    "next-i18next": "^15.4.2",
+    "radix-ui": "^1.4.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.58.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

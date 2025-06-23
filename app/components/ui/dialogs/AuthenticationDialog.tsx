@@ -22,7 +22,7 @@ export function AuthenticationDialog({
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild>
-        <button className="Button violet">Sign up</button>
+        <button className=" Button violet">Sign up</button>
       </Dialog.Trigger>
       <Dialog.Portal>
         {/* Overlay */}

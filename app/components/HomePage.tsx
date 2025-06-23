@@ -6,8 +6,8 @@ import Navbar from "./Navbar";
 export default function Landing() {
   return (
     <main
-      className="min-h-screen flex flex-col items-center justify-between px-6 py-10"
-      style={{ background: "linear-gradient(135deg, #ff6a00, #ee0979)" }}
+      className="min-h-screen flex flex-col items-center justify-between px-6 py-10 bg-gradient-to-b from-white to-[#9680E1]" 
+      //style={{ background: "linear-gradient(135deg, #ff6a00, #ee0979)" }}
     >
       <Navbar />
 

@@ -5,8 +5,13 @@ import { AuthenticationDialog } from "@/app/components/ui/dialogs/Authentication
 const Navbar = () => {
   return (
     <nav className="w-full flex justify-between items-center text-sm font-semibold text-gray-800">
-      <span className="text-xl">
-        <span className="text-purple-600">IAS</span> Interview
+      <span className="text-2xl font-bold">
+        <span className="bg-gradient-to-r from-[#C17EF7] to-[#444744] bg-clip-text text-transparent">
+          IAS
+        </span>{" "}
+        <span className="bg-gradient-to-r from-[#C17EF7] to-[#444744] bg-clip-text text-transparent">
+          Interview
+        </span>
         <span className="text-black">AI</span>
       </span>
 

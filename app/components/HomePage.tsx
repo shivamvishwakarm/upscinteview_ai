@@ -5,12 +5,16 @@ import Navbar from "./Navbar";
 
 export default function Landing() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-between bg-gradient-to-b from-white to-purple-300 px-6 py-10">
+    <main
+      className="min-h-screen flex flex-col items-center justify-between px-6 py-10 bg-gradient-to-b from-white to-[#9680E1]" 
+      //style={{ background: "linear-gradient(135deg, #ff6a00, #ee0979)" }}
+    >
       <Navbar />
 
       <section className="flex flex-col items-center justify-center text-center flex-grow">
         <h1 className="text-xl sm:text-2xl md:text-3xl font-medium text-black mb-4">
-          Prepare for <span className="px-1">your next competitive</span>
+          Prepare for{" "}
+          <span className="px-1">your next competitive</span>
           <br />
           <strong className="text-black text-2xl sm:text-3xl md:text-4xl">
             Exam Interview
